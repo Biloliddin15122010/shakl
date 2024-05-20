@@ -1,0 +1,21 @@
+.row{
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.row .col {
+    width: 200px;
+    height: 200px;
+    border: 3px solid blue;
+    background-color: yellow;
+    transition: 1s;
+}
+
+.col:hover {
+    border-radius: 50%;
+    background-color: blue;
+    box-shadow: 0 0 50px black;
+    cursor: help;
+}
